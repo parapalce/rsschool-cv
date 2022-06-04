@@ -8,3 +8,9 @@
 I don't have any experience in web projects yet. I like to study. I like to work in a team. Calm and balanced, I easily find a common language.
 ### Skills
 in progress : HTML,CSS,JS
+### Code examples
+### Education
+* University: Polotsk State University 
+    + Welding production 
+### Languages
+A2: I can read, listen but i have bad speaking practice.
