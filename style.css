@@ -1,0 +1,163 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-image: url(assets/img/planet.jpg);
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  } 
+
+.section__a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+@font-face {
+    font-family: Roboto;
+     src: url("assets/fonts/Roboto.ttf");
+   }
+
+   @font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoThin.ttf");
+    font-weight: 100;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/RobotoRegular.ttf");
+    font-weight: 300;
+  } 
+
+.header__nav-list {
+  list-style: none;
+  }
+
+.header {
+  position: static;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.header__nav-list {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.header__nav-link {
+  font-size: 20px;
+  padding: 0 10px;
+  line-height: 50px;
+  color:white;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px black;
+}
+
+.header__container {
+  max-width: px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.profile {
+  text-align: center;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.profile__img {
+  max-width: 200px;
+  max-height: 200px;
+  text-align: center;
+  margin: 0px 0px;
+}
+
+.profile__img-h1 {
+  font-size: 25px;
+  color:white;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px black;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  text-align: center;
+}
+
+.section__div {
+  color :white;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px black;
+  margin: 0px 0px;
+  padding: 5% 30%;
+  }
+
+.section__h2 {
+  font-size: 25px;
+  color:white;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px black;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  text-align: center;
+}
+
+.section__contacts-list {
+  font-size: 20px;
+}
+
+.section__paragraph {
+  font-size: 20px;
+  margin: 0px 0px;
+  padding: 20px 0px 0px 0px;
+}
+
+.footer {
+  position:static;
+  bottom:0;
+  left:0;
+  width: 100%;
+  height: 100px;
+}
+
+.rs-school {
+  width: 100px;
+  height: 100px;
+}
+
+.footer {
+  display: flex;
+  flex-grow: 0;
+  justify-content:center;
+  justify-content:space-around;
+}
+.footer__a {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.ppp, .rs-school__a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.last_div {
+  display: flex;
+  flex-direction: column;
+}
